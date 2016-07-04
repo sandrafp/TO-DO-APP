@@ -42,19 +42,35 @@ textarea.form-control {
     padding-left: 2%;
     color: #727272; }
   .lista a {
-    color: #c2215b;
-    display: inline; }
+    color: #c2215b; }
   .lista a:hover {
     color: #7b1fa2; }
   .lista .fa {
     font-size: 250%; }
   .lista .tachado {
-    text-decoration: line-through; }
+    text-decoration: line-through;
+    width: 60%; }
 
 @media (max-width: 900px) {
   textarea.form-control {
     margin-top: 33%;
     max-height: 100px;
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  .peque {
+    width: 50%; }
+
+  .fa-star-o {
+    text-align: right;
+    float: clear; }
+
+  .fa-trash {
+    text-align: left;
+    float: clear; }
+
+  .lista {
+    text-align: center; }
+    .lista input {
+      margin-right: -10%; } }
 
 /*# sourceMappingURL=main.css.map */
