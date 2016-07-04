@@ -1,3 +1,23 @@
 header {
-	background-color: $bg-pincipal;
+	background-color: $bg-body;
+	width: 100%;
+	nav {
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+	background-color: $bg-darken;
+	}
+	.col-xs-12{margin-bottom: $mt-5;}
+}
+textarea.form-control{
+	font-size: 25px;margin-top: 15%;
+	margin-bottom:$mt-5;
+	border: 10px solid $bg-darken;
+	&:focus{border: 10px solid $bg-claro;}
+}
+.btn-primary{
+	background-color: $bg-darken;
+	color: $bg-claro;
+	border-color: $bg-body;
+	&:hover, &:active{background: $bg-body;}
 }

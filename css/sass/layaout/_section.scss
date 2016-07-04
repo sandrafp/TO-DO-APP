@@ -1,0 +1,13 @@
+.lista {
+	color : $p-text;
+	margin-top: $mt-3;
+	border-bottom: 1px solid $bg-darken;
+	padding: 0% 3%;
+	label {font-size: 25px; padding-left: 2%;color: $s-text;}
+	a{color:$bg-darken;display:inline;}
+	a:hover{color: $bg-pincipal;}
+	.fa {font-size: 250%;}
+	.tachado{text-decoration: line-through;}
+}
+
+
